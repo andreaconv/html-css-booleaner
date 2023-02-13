@@ -20,15 +20,31 @@ main{
 .sottotitolo{
   color: grey;
   font-family: 'Inter', sans-serif;
-  padding-top: 10px;
 }
 #celeste{
   color: rgb(5, 84, 110);
 }
-.image-tim{
+.image-tim, p, table{
   padding-top: 10px;
   padding-bottom: 10px;
 }
 p span{
   background-color: yellow;
+}
+.lista{
+  padding-left: 30px;
+}
+.colonnasx{
+  width: 25%;
+}
+.colonnadx{
+  width: 50%;
+}
+.rowhead{
+  background-color: rgb(56, 172, 211);
+  color: white;
+  text-align: left;
+}
+.rowbody{
+  background-color: lightblue;
 }
