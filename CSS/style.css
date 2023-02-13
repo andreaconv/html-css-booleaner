@@ -25,3 +25,10 @@ main{
 #celeste{
   color: rgb(5, 84, 110);
 }
+.image-tim{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+p span{
+  background-color: yellow;
+}
