@@ -4,3 +4,24 @@
   box-sizing: border-box;
 }
 
+header{
+  background-image: url('../img/pattern.png');
+  height: 175px;
+  background-color: rgb(28, 118, 221);
+}
+
+header img{
+  height: 100px;
+}
+main{
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.sottotitolo{
+  color: grey;
+  font-family: 'Inter', sans-serif;
+  padding-top: 10px;
+}
+#celeste{
+  color: rgb(5, 84, 110);
+}
