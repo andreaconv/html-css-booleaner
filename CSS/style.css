@@ -13,18 +13,18 @@ header{
 header img{
   height: 100px;
 }
-main{
+main, footer{
   padding-top: 20px;
   padding-left: 10px;
 }
-.sottotitolo{
+.sottotitolo, .image-foot{
   color: grey;
   font-family: 'Inter', sans-serif;
 }
 #celeste{
   color: rgb(5, 84, 110);
 }
-.image-tim, p, table{
+.image-tim, p, table, footer{
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -32,7 +32,7 @@ p span{
   background-color: yellow;
 }
 .lista{
-  padding-left: 30px;
+  padding-left: 15px;
 }
 .colonnasx{
   width: 25%;
@@ -47,4 +47,18 @@ p span{
 }
 .rowbody{
   background-color: lightblue;
+}
+.image-foot{
+  width: 300px;
+  height: 200px;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  font-weight: 800;
+}
+.img1{
+  background-image: url('../img/monitor.jpg');
+}
+.img2{
+  background-image: url('../img/graph.jpg');
 }
